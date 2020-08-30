@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "TTNorms-Black";
+  
+    src: url("../fonts/TTNorms-Black.woff") format("woff"),
+      url("../fonts/TTNorms-Black.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "TTNorms-Bold";
+  
+    src: url("../fonts/TTNorms-Bold.woff") format("woff"),
+      url("../fonts/TTNorms-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "TTNorms-ExtraBold";
+  
+    src: url("../fonts/TTNorms-ExtraBold.woff") format("woff"),
+      url("../fonts/TTNorms-ExtraBold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "TTNorms-ExtraLight";
+  
+    src: url("../fonts/TTNorms-ExtraLight.woff") format("woff"),
+      url("../fonts/TTNorms-ExtraLight.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "TTNorms-Heavy";
+  
+    src: url("../fonts/TTNorms-Heavy.woff") format("woff"),
+      url("../fonts/TTNorms-Heavy.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "TTNorms-Light";
+  
+    src: url("../fonts/TTNorms-Light.woff") format("woff"),
+      url("../fonts/TTNorms-Light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "TTNorms-Medium";
+  
+    src: url("../fonts/TTNorms-Medium.woff") format("woff"),
+      url("../fonts/TTNorms-Medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "TTNorms-Regular";
+  
+    src: url("../fonts/TTNorms-Regular.woff") format("woff"),
+      url("../fonts/TTNorms-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "TTNorms-Thin";
+  
+    src: url("../fonts/TTNorms-Thin.woff") format("woff"),
+      url("../fonts/TTNorms-Thin.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+body{
+  background-image: url(../img/bg/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: initial;
+}
+
+.contant-center{
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+    position: relative;
+    width: 205px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.logo__text{
+  color: #3b3b3b;
+  font-size: 73px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -85%);
+  font-family: "TTNorms-Bold";
+}
+
+.logo img{
+  width: 100%;
+}
+
+.navbar{
+  padding-top: 0;
+}
+
+.navbar-brand{
+  padding-top: 0;
+  width: 100%;
+
+}
+
+.logo__description{
+  font-family: "TTNorms-Light";
+  color: #3b3b3b;
+  font-size: 13px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -2%);  
+}
+
+.social-box__discription{
+  font-family: "TTNorms-Regular";
+}
+
+.social__link{
+  margin-bottom: 1rem;
+  margin-left: 20px;
+}
+
+.contact{
+  cursor: pointer;
+}
+
+.phone-ico{
+  fill: #000;
+}
+
+.phone-ico_size{
+  width: 23px;
+  height: 23px;
+}
+
+.phone-num{
+  position: relative;
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: "TTNorms-Bold";
+}
+
+.contact:hover .phone-ico{
+  fill: #437df4;
+}
+
+.contact:hover .phone-num{
+  color: #437df4;
+}
+
+.contact:hover .phone-num:after{
+  content: '';
+  width: 100%;
+  position: absolute;
+  height: 1px;
+  background-color: #437df4;
+  left: 0;
+  bottom: 3px;
+}
