@@ -1,3 +1,9 @@
+@media (max-width: 1545px){
+    .desctop-aircraft{
+        width: 200px;
+    }
+}
+
 @media (max-width: 1530px){
     .phone-container {
         width: 630px;
@@ -15,6 +21,22 @@
     .funnel-ico{
         right: -8px;
         width: 200px;
+    }
+}
+
+@media (max-width: 1451px){
+    .desctop-aircraft{
+        width: 170px;
+        top: 56%;
+    }
+}
+
+@media (max-width: 1330px){
+    .desctop-aircraft{
+        display: none;
+    }
+    .mobile-aircraft{
+        display: block;
     }
 }
 
@@ -52,6 +74,9 @@
     }
     .ofer p {
         font-size: 16px;
+    }
+    .card-img-table {
+        width: 230px !important;
     }
 }
 
@@ -94,9 +119,16 @@
     }
 }
 
+@media(max-width: 900px){
+    .mobile-aircraft{
+        width: 125px;
+        right: -80px;
+    }
+}
+
 @media(max-width: 768px){
     .phone-container {
-        width: 100%;
+        width: 740px;
         top: 400px;
     }
     .mobile-margin-b{
@@ -106,14 +138,32 @@
         left: 80px;
     }
     .google-ico{
-        left: 45%;
+        left: 340px;
     }
     .yandex-ico{
-        left: 40%;
+        left: 300px;
     }
     .funnel-ico{
         top: 158px;
         right: 65px;
+    }
+    .card{
+        margin: 15px 0;
+    }
+}
+
+@media(max-width: 670px){
+
+}
+
+@media(max-width: 576px){
+    .phone-container{
+        top: 520px;
+    }
+    .btn-test::before{
+        top: 37px;
+        right: 204px;
+        transform: rotate(-8deg);
     }
 }
 
@@ -126,7 +176,22 @@
         width: 100%;
     }
     .phone-num{
-        font-size: 15px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 520px){
+    .phone-img {
+        left: 160px;
+    }
+    .funnel-ico{
+        right: 0;
+    }
+    .google-ico{
+        left: 420px;
+    }
+    .yandex-ico {
+        left: 380px;
     }
 }
 
@@ -135,5 +200,33 @@
         font-size: 25px;
         line-height: 30px;
         text-align: center;
+    }
+    .phone-container {
+        top: 450px;
+    }
+}
+@media (max-width: 400px){
+    .phone-img{
+        width: 600px;
+        left: 268px;
+        top: 30px;
+    }
+    .funnel-ico{
+        width: 120px;
+    }
+    .google-ico{
+        top: 70px;
+        left: 520px;
+        width: 80px;
+    }
+    .yandex-ico {
+        width: 65px;
+        left: 475px;
+    }
+}
+
+@media (max-width: 349px){
+    h1{
+        font-size: 22px;
     }
 }

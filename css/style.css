@@ -375,3 +375,13 @@ h1 span{
   top: 50%;
   width: 250px;
 }
+
+.mobile-aircraft{
+  display: none;
+  animation: anim-ico-fly 1s infinite ease-in-out alternate;
+  position: absolute;
+  top: -45px;
+  right: -105px;
+  z-index: -1;
+  width: 140px;
+}
