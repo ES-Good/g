@@ -82,6 +82,7 @@ body{
   background-image: url(../img/bg/bg.jpg);
   background-repeat: no-repeat;
   background-position: initial;
+  background-color: #fafafa;
   position: relative;
 }
 
