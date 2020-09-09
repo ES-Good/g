@@ -138,6 +138,7 @@
     }
 }
 
+
 @media(max-width: 900px){
     .mobile-aircraft{
         width: 125px;
@@ -177,6 +178,12 @@
     }
 }
 
+@media(max-width: 600px){
+    .card-container {
+        margin: 40px 74px 0 !important;
+    }
+}
+
 @media(max-width: 576px){
     .phone-container{
         top: 520px;
@@ -197,7 +204,13 @@
         width: 100%;
     }
     .phone-num{
-        font-size: 14px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .phone-num{
+        font-size: 18px;
     }
 }
 
@@ -248,10 +261,18 @@
         width: 65px;
         left: 475px;
     }
-}
-
-@media (max-width: 349px){
-    h1{
-        font-size: 22px;
+    .mobile-aircraft {
+        width: 85px;
+        right: -45px;
+        top: -25px;
+    }
+    .card-container {
+        margin: 40px 40px 0 !important;
+    }
+    .phone-num{
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 20px;
     }
 }
