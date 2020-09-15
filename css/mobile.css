@@ -134,7 +134,13 @@
         width: 215px !important;
     }
     .desctop-aircraft{
-        top: 46%;
+        top: 55%;
+    }
+}
+
+@media(max-width: 992px){
+    .desctop-aircraft{
+        top: 45%;
     }
 }
 
@@ -193,6 +199,9 @@
         right: 204px;
         transform: rotate(-8deg);
     }
+    .logo{
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
@@ -212,6 +221,12 @@
     .phone-num{
         font-size: 18px;
     }
+    .card::after{
+        right: 32%;
+    }
+    .card-table::after{
+        right: 25%;
+    }
 }
 
 @media(max-width: 520px){
@@ -226,6 +241,12 @@
     }
     .yandex-ico {
         left: 380px;
+    }
+    .card::after{
+        right: 22%;
+    }
+    .card-table::after{
+        right: 16%;
     }
 }
 

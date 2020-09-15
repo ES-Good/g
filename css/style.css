@@ -135,8 +135,6 @@ body{
 .navbar-brand{
   padding-top: 0;
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .logo__description{
@@ -332,6 +330,23 @@ h1 span{
   transform: rotate(123deg);
 }
 
+.card::after{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/cards/stamp.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 20%;
+  top: 15%;
+}
+
+.card-table::after{
+  right: 10%;
+  top: 5%;
+}
+
 .card img{
   width: 130px;
 }
@@ -345,7 +360,8 @@ h1 span{
 }
 
 .card-text{
-  font-family: "TTNorms-Light";
+  font-family: "TTNorms-Regular";
+  font-size: 15px;
 }
 
 .card-container{
@@ -395,4 +411,8 @@ h1 span{
   right: -85px;
   z-index: -1;
   width: 140px;
+}
+
+.social__link:hover img{
+  transform: scale(1.1);
 }
