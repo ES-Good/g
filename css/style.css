@@ -95,13 +95,22 @@ body{
     position: relative;
     width: 205px;
     height: 160px;
-    margin: 0 auto;
 }
 
 .logo__text{
+  position: relative;
   color: #3b3b3b;
   font-size: 73px;
   font-family: "TTNorms-Bold";
+}
+
+.logo__text::after{
+  position: absolute;
+  content: '';
+  width: 9px;
+  height: 9px;
+  background-color: #3b3b3b;
+  bottom: 30%;
 }
 
 .logo-header{
@@ -126,7 +135,8 @@ body{
 .navbar-brand{
   padding-top: 0;
   width: 100%;
-
+  display: flex;
+  justify-content: flex-start;
 }
 
 .logo__description{
