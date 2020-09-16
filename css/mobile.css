@@ -82,8 +82,8 @@
     .ofer p {
         font-size: 16px;
     }
-    .card-img-table {
-        width: 230px !important;
+    .card-text{
+        font-size: 14px;
     }
 }
 
