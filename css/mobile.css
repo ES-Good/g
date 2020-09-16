@@ -62,9 +62,6 @@
     .card-img-table{
         width: 190px !important;
     }
-    .card img {
-        width: 115px;
-    }
     .card-img-guarantee {
         width: 115px !important;
     }
@@ -284,7 +281,7 @@
     }
     .mobile-aircraft {
         width: 85px;
-        right: -45px;
+        right: -35px;
         top: -25px;
     }
     .card-container {
